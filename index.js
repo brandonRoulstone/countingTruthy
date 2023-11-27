@@ -25,9 +25,9 @@ function countTruthy(arrOfTruth) {
 
 function res () {
 
-    let truth = countTruthy(arrOfTruth);
+    let response = countTruthy(arrOfTruth);
 
-    newDisplay.value = (typeof truth === "number") ? truth : truth;
+    newDisplay.value = (typeof response === "number") ? response : "error 403";
 
 }
 
